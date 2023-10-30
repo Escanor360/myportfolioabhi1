@@ -1,0 +1,666 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* first page**************************************************************************************************** */
+#home{
+  max-width: 100%;
+  height: 1080px;
+}
+
+#navo{
+  background-color: transparent; 
+  position: fixed; 
+  z-index: 9999;
+}
+
+.backimg{
+  height: 1080px;
+}
+
+.iconl{
+  margin-top: 20%;
+  margin-left: 46%;
+  width: 150px;
+}
+
+.hed{
+  text-align: center;
+   color: white;
+    font-family: 'Young Serif', serif;
+    font-size: 50px;
+}
+
+#hom{
+  color: rgb(0, 0, 0);
+  position: fixed;
+  font-family: 'Young Serif', serif;
+  font-size: 20px;
+  margin-left: 26%;
+}
+
+#abo{
+  color: rgb(78, 78, 78);
+   position: fixed;
+    font-family: 'Young Serif', serif;
+     font-size: 20px;
+      margin-left: 32%;
+}
+
+#ser{
+  color: rgb(78, 78, 78);
+   position: fixed;
+    font-family: 'Young Serif', serif;
+     font-size: 20px;
+      margin-left: 38%;
+}
+
+#pro{
+  color: rgb(78, 78, 78);
+   position: fixed;
+    font-family: 'Young Serif', serif;
+     font-size: 20px;
+      margin-left: 44%;
+}
+
+#con{
+  color: rgb(78, 78, 78);
+   position: fixed;
+    font-family: 'Young Serif', serif;
+     font-size: 20px;
+      margin-left: 50%;
+}
+
+#iconf{
+  color: #000000; 
+  position: fixed; 
+  margin-left: 72%; 
+  margin-top: 1.5%;
+}
+
+#icons{
+  color: #000000; 
+  position: fixed; 
+  margin-left: 76%; 
+  margin-top: 1.5%;
+}
+
+#icont{
+  color: #000000; 
+  position: fixed; 
+  margin-left: 80%; 
+  margin-top: 1.5%;
+}
+
+
+.ani {
+    color: #fff;
+    text-align: center;
+      font-size: 22px;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+      typing 3s steps(30, end),
+      blink-caret .5s step-end infinite;
+      
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 15% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+  h5{
+    transition: 1s;
+  }
+
+h5:hover{
+  color: rgb(41, 66, 61);
+}
+
+#hom:hover{
+  font-size: 25px;
+}
+
+#abo:hover{
+  font-size: 25px;
+}
+
+#ser:hover{
+  font-size: 25px;
+}
+
+#pro:hover{
+  font-size: 25px;
+}
+
+#con:hover{
+  font-size: 25px;
+}
+
+/* secondpage ******************************************************************************************************************************************************* */
+
+
+#about{
+  max-width: 100%;
+  height: 1080px;
+  background-color: rgb(248, 247, 242);
+}
+
+#fcol{
+  margin-top: 12%;
+   margin-left: 18%;
+}
+
+.boxa{
+  border-radius: 30px;
+   box-shadow: 3px 3px 4px 4px rgb(50, 77, 66);
+    height: 450px;
+     width: 400px;
+
+}
+
+.abhi{
+  margin-left: -6%;
+  height: 450px;
+  
+}
+
+#scol{
+  margin-top: 13%; 
+  margin-left: -14%;
+  
+}
+
+#sh{
+  font-family: 'Young Serif', serif;
+  font-size: 50px;
+  
+}
+
+#shm{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  
+}
+
+#sp{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  
+}
+
+.abhi:hover{
+  height: 500px;
+  margin-top: -12.5%;
+  transition-delay: 0.4s;
+  transition: 1s;
+
+}
+
+/* third page*************************************************************************************************************************************************************** */
+
+#services{
+  height: 1080px;
+  max-width: 100%;
+  background-color: rgb(248, 247, 242);
+}
+
+.fon{
+  text-align: center; 
+  padding-top: 6%; 
+  font-family: 'Young Serif', serif;
+}
+
+#frow{
+  margin-top: 8%;
+}
+
+#ac{
+  height: 350px;
+   width: 400px; 
+   margin-left: 30%;
+}
+
+#bc{
+  height: 350px; 
+  width: 400px; 
+  margin-left: 15%;
+}
+
+#cc{
+  height: 350px; 
+  width: 400px;
+}
+
+.card-title{
+  font-size: 30px; 
+  text-align: center; 
+  margin-top: 22%; 
+  font-family: 'Young Serif', serif;
+}
+
+.card-text{
+  text-align: center; 
+  font-size: 20px; 
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#ac:hover{
+  margin-top: 2%;
+  padding-top: 2%;
+  background-image: url(img/pngwing.com.png);
+  box-shadow: 2px 2px 3px 3px black;
+  transition: 1s;
+  background-size: 20%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  background-color: rgb(240, 240, 240);
+  
+}
+
+#bc:hover{
+  margin-top: 2%;
+  padding-top: 2%;
+  background-image: url(img/react.png);
+  box-shadow: 2px 2px 3px 3px black;
+  transition: 1s;
+  background-size: 20%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  background-color: rgb(240, 240, 240);
+  
+}
+
+#cc:hover{
+  margin-top: 2%;
+  padding-top: 2%;
+  background-image: url(img/angular.png);
+  box-shadow: 2px 2px 3px 3px black;
+  transition: 1s;
+  background-size: 20%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  background-color: rgb(240, 240, 240);
+  
+}
+
+/* fourth page********************************************************************************************************************************************************* */
+
+#projects{
+  height: 1080px;
+  max-width: 100%;
+  background-color: rgb(248, 247, 242);
+}
+
+#carda{
+  overflow: hidden;
+  position: relative;
+  width: 420px;
+  margin-left: 10%;
+  margin-top: 15%;
+  box-shadow: 2px 2px 3px 3px black;
+}
+
+#card-imga{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#card-bodya{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.247);
+  backdrop-filter: blur(5px);
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1.5s;
+}
+
+#iconx{
+  margin-left: 45%;
+}
+
+#carda:hover #card-bodya{
+  right: 0;
+}
+
+.fon:hover{
+  color: rgb(80, 80, 80);
+}
+
+#btn1:hover{
+  outline: blue;
+
+}
+
+/* responsive **********************************************************************************************************************************************************************/
+
+@media (max-width: 1280px) {
+
+  #home{
+    max-width: 100%;
+    height: 600px;
+  }
+
+  .backimg{
+    height: 600px;
+  }
+
+  .iconl{
+    margin-top: 15%;
+    margin-left: 45%;
+    width: 120px;
+  }
+
+  .hed{
+      font-size: 40px;
+  }
+
+  .ani{
+    font-size: 18px;
+  }
+
+  #hom{
+    font-size: 20px;
+    margin-left: 20%;
+  }
+  
+  #abo{
+       font-size: 20px;
+        margin-left: 26%;
+  }
+  
+  #ser{
+       font-size: 20px;
+        margin-left: 32%;
+  }
+  
+  #pro{
+       font-size: 20px;
+        margin-left: 40%;
+  }
+  
+  #con{
+       font-size: 20px;
+        margin-left: 48%;
+  }
+
+  /* second************************************************************************ */
+
+  #about{
+    max-width: 100%;
+    height: 600px;
+  }
+
+  .boxa{
+      height: 350px;
+       width: 300px;
+  }
+
+  .abhi{
+    margin-left: -6%;
+    height: 350px;
+  }
+
+  #fcol{
+    margin-top: 10%;
+     margin-left: 16%;
+  }
+
+  .abhi:hover{
+    height: 400px;
+    margin-top: -16.5%;
+    transition-delay: 0.4s;
+    transition: 1s;
+  }
+
+  #scol{
+    margin-top: 12%; 
+    margin-left: -12%;
+  }
+  
+  #sh{
+    font-size: 35px;
+  }
+  
+  #shm{
+    font-size: 15px;
+  }
+  
+  #sp{
+    font-size: 15px;
+  }
+
+  /* third****************************************************************************************** */
+
+  #services{
+    height: 600px;
+    max-width: 100%;
+  }
+  
+  #ac{
+    height: 250px;
+     width: 300px; 
+     margin-left: 30%;
+  }
+  
+  #bc{
+    height: 250px; 
+    width: 300px; 
+    margin-left: 15%;
+  }
+  
+  #cc{
+    height: 250px; 
+    width: 300px;
+  }
+
+  .card-title{
+    font-size: 22px; 
+    margin-top: 20%; 
+  }
+  
+  .card-text{
+    font-size: 15px; 
+  }
+
+  /* third************************************************************************************ */
+  
+  #projects{
+    height: 600px;
+    max-width: 100%;
+  }
+
+  #carda{
+    width: 320px;
+    margin-left: 6%;
+    margin-top: 10%;
+  }
+
+}
+
+/* responsive******************************************************************************************************************** */
+
+@media (max-width: 415px){
+
+
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #home{
+    max-width: 100%;
+    height: 900px;
+  }
+  #navo{
+    position: fixed;
+    margin-top: 6%;
+  }
+
+  .backimg{
+    height: 900px;
+    background-position-x: 90%;
+  }
+
+  .navbar-toggler{
+    margin-left: 335%;
+    margin-top: -55%;
+  }
+
+  .iconl{
+    margin-top: 16%;
+    margin-left: 36%;
+    width: 100px;
+  }
+
+  #hom{
+    font-size: 15px;
+    margin-left: 60%;
+    margin-top: 2%;
+  }
+  
+  #abo{
+       font-size: 15px;
+       margin-left: 60%;
+       margin-top: 4%;
+  }
+  
+  #ser{
+       font-size: 15px;
+       margin-left: 60%;
+       margin-top: 6%;
+  }
+  
+  #pro{
+       font-size: 15px;
+       margin-left: 60%;
+       margin-top: 8%;
+  }
+  
+  #con{
+       font-size: 15px;
+       margin-left: 60%;
+       margin-top: 10%;
+  }
+
+  #iconf{
+    margin-left: 59%;
+    margin-top: 18%;
+  }
+  
+  #icons{
+    margin-left: 65%;
+    margin-top: 18%;
+  }
+  
+  #icont{
+    margin-left: 71%; 
+    margin-top: 18%;
+  }
+
+  /* second******************************************************************************************************************* */
+
+  #about{
+    max-width: 100%;
+    height: 900px;
+  }
+
+  #fcol{
+    margin-top: 15%;
+     margin-left: 12%;
+  }
+
+  #scol{
+    margin-top: 12%; 
+    margin-left: 12%;
+  }
+  
+  #sh{
+    font-size: 30px;
+  }
+  
+  #shm{
+    font-size: 10px;
+  }
+  
+  #sp{
+    font-size: 10px;
+  }
+
+  /* third************************************************************************************************************************ */
+
+  #services{
+    height: 900px;
+    max-width: 100%;
+  }
+
+  #ac{
+    height: 250px;
+     width: 300px; 
+     margin-left: 15%;
+  }
+  
+  #bc{
+    height: 250px; 
+    width: 300px; 
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  
+  #cc{
+    height: 250px; 
+    width: 300px;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+
+  .card-title{
+    font-size: 22px; 
+    margin-top: 20%; 
+  }
+  
+  .card-text{
+    font-size: 15px; 
+  }
+
+  /* fourth*************************************************************************************************************************** */
+
+  #projects{
+    height: 900px;
+    max-width: 100%;
+  }
+
+  #carda{
+    width: 320px;
+    margin-left: 6%;
+    margin-top: 10%;
+  }
+
+
+}
